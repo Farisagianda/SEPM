@@ -1,0 +1,6 @@
+MovieName             Location            Time
+Black_Panther 	      MelbourneCBD	  10:00
+Operation_Red_Sea     MelbourneCBD	  01:00
+Detective_China_Town  MelbourneCBD	  16:00
+Ready_Player_One      MelbourneCBD        19:00
+Fifty_Shades_Free     MelbourneCBD	  22:00 
