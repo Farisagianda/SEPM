@@ -1,6 +1,0 @@
-MovieName             Location            Time
-Black_Panther 	      Sunshine		  10:00
-Operation_Red_Sea     Sunshine		  01:00
-Detective_China_Town  Sunshine		  16:00
-Ready_Player_One      Sunshine            19:00
-Fifty_Shades_Free     Sunshine		  22:00 
