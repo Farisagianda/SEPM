@@ -25,7 +25,7 @@ public class Cinplex
   
   public Fitzroy getLocation()
   {
-    return location;
+    return getLocation();
   }
 
 }

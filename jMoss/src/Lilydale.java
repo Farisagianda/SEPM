@@ -9,7 +9,7 @@ public class Lilydale implements Serializable
   }
   
   private Scanner x;
-  ArrayList<ViewMovie> vlist = new ArrayList<ViewMovie>();
+  ArrayList<Viewing> vlist = new ArrayList<Viewing>();
   
   public void openFile()
   {
