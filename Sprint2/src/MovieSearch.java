@@ -7,6 +7,7 @@ public class MovieSearch
   {
     try
     {
+      // this file seperator means you can use this on apple, unix etc. and it will still run the code
       String locationOfFile = File.separator + "Year 4" + File.separator + "Semester 1" + File.separator + "SE Project Management" + File.separator + "Assignments" + File.separator + "Scripts" + File.separator + "Sprint 2" + File.separator + "Master.txt";
       // finding the file with movie information
       File f = new File(locationOfFile);
