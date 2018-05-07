@@ -3,7 +3,7 @@ public class ViewMovie
   private String location;
   private String movieName;
   private String timeSun;
-  /*private String mon;
+  /*private String mon;                 if we are adding array do we add extra attributes for times throughout the week
    * private String tues;
    * private String wed;
    * private String thur;
