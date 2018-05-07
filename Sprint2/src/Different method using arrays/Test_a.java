@@ -33,16 +33,16 @@ public class Test_a
       System.out.println(index[count]);
      
     System.out.println();
-    String location = index.nextLine();
-    String movieName = index.nextLine();
-    String timeSun = index.nextLine();
-    String mon = index.nextLine();
-    String tues = index.nextLine();
-    String wed = index.nextLine();
-    String thur = index.nextLine();
-    String fri = index.nextLine();
-    String sat = index.nextLine();
-    index.nextLine();
+    String location = index.nextLine();           // 1. errors 10    cannot not find symbol; nextLine()
+    String movieName = index.nextLine();          // 2.
+    String timeSun = index.nextLine();            // 3.
+    String mon = index.nextLine();                // 4. 
+    String tues = index.nextLine();               // 5.
+    String wed = index.nextLine();                // 6.
+    String thur = index.nextLine();               // 7.
+    String fri = index.nextLine();                // 8.
+    String sat = index.nextLine();                // 9.
+    index.nextLine();                             // 10.
     Test t = new Test(location, movieName, timeSun, mon, tues, wed, thur, fri, sat);
     tlist.add(t);
      }
