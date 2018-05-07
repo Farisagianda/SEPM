@@ -19,7 +19,7 @@ public class MovieSearch
       String nextLine = sc.nextLine();
       
       //split the file into seperate strings and make array
-      String[] movieInfo = nextLine.split(".");
+      String[] movieInfo = nextLine.split(".");                 // the next 3 lines are throwing errors; need a way to save lines to array and print to show data in array is correct
       
       for(int count = 0;count<movieInfo;count++)
       {
