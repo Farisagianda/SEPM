@@ -1,30 +1,25 @@
-Location.MovieName.Time
-Fitzroy.Black_Panther.10:00
-Fitzroy.Operation_Red_Sea.01:00
-Fitzroy.Detective_China_Town.16:00
-Fitzroy.Ready_Player_One.19:00
-Fitzroy.Fifty_Shades_Free.22:00
-
-Lilydale.Black_Panther.10:00
-Lilydale.Operation_Red_Sea.01:00
-Lilydale.Detective_China_Town.16:00
-Lilydale.Ready_Player_One.19:00
-Lilydale.Fifty_Shades_Free.22:00  
-
-MelbourneCBD.Black_Panther.10:00
-MelbourneCBD.Operation_Red_Sea.01:00
-MelbourneCBD.Detective_China_Town.16:00
-MelbourneCBD.Ready_Player_One.19:00
-MelbourneCBD.Fifty_Shades_Free.22:00
-
-St_Kilda.Black_Panther.10:00
-St_Kilda.Operation_Red_Sea.01:00
-St_Kilda.Detective_China_Town.16:00
-St_Kilda.Ready_Player_One.19:00
-St_Kilda.Fifty_Shades_Free.22:00
-
-Sunshine.Black_Panther.10:00
-Sunshine.Operation_Red_Sea.01:00
-Sunshine.Detective_China_Town.16:00
-Sunshine.Ready_Player_One.19:00
-Sunshine.Fifty_Shades_Free.22:00   
+Fitzroy, Iron Man, Monday, 1100
+Fitzroy, Avengers, Monday, 1400
+Fitzroy, Trolls, Monday, 1700
+Fitzroy, Black Panther, Monday, 1900
+Fitzroy, Batman, Monday, 2100
+CBD, Iron Man, Monday, 1100
+CBD, Avengers, Monday, 1400
+CBD, Trolls, Monday, 1700
+CBD, Black Panther, Monday, 1900
+CBD, Batman, Monday, 2100
+Sunshine, Iron Man, Monday, 1100
+Sunshine, Avengers, Monday, 1400
+Sunshine, Trolls, Monday, 1700
+Sunshine, Black Panther, Monday, 1900
+Sunshine, Batman, Monday, 2100
+St Kilda, Iron Man, Monday, 1100
+St Kilda, Avengers, Monday, 1400
+St Kilda, Trolls, Monday, 1700
+St Kilda, Black Panther, Monday, 1900
+St Kilda, Batman, Monday, 2100
+Lilydale, Iron Man, Monday, 1100
+Lilydale, Avengers, Monday, 1400
+Lilydale, Trolls, Monday, 1700
+Lilydale, Black Panther, Monday, 1900
+Lilydale, Batman, Monday, 2100
