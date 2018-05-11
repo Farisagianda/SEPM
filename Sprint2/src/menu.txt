@@ -1,0 +1,76 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class jMossApp {
+
+    public static void main(String [] args) throws FileNotFoundException {
+
+        //List to store question objects:
+        ArrayList<Showing> showings = new ArrayList<>();
+
+        //Empty showing object to store new question depending on type:
+        Showing s = null;
+
+        //Scanner to read file of questions and answers:
+        Scanner scanner = new Scanner(new FileReader("C:\\Users\\Camilla\\IdeaProjects\\SEPM\\jMoss\\src\\movies.txt"));
+
+        //While there are more lines, the scanner should read the next line:
+        while (scanner.hasNext()) {
+
+            s = Showing.readShowing(scanner);
+
+            //Adding the question to the list:
+            showings.add(s);
+        }
+
+        HashSet<Login> logins = new HashSet<>();
+
+        Login l = null;
+        Scanner reader = new Scanner(new FileReader("C:\\Users\\Camilla\\IdeaProjects\\SEPM\\jMoss\\src\\User.txt"));
+        Scanner in = new Scanner(System.in);
+
+
+        while(reader.hasNext()){
+            l = Login.readLogin(reader);
+            logins.add(l);
+        }
+
+        do{
+
+            if(Login.loginTrue(Login.getUserLogin(in), logins)){
+                System.out.println("Login successful");
+                do{
+                    //Printing out the menu:
+                    System.out.println("========"
+                            + '\n'
+                            + "Options:"
+                            + '\n'
+                            + "========"
+                            + '\n'
+                            + "S: Search"
+                            + '\n'
+                            + "B: Booking"
+                            + '\n'
+                            + "V: View timetable"
+                            + '\n'
+                   // for(Showing sh : showings){
+                       // System.out.println(sh);
+                    //}
+                            + "D: Delete booking"
+                            + '\n'
+                            + "Q: Quit"
+                            + '\n'
+                            + "Please select an option:");
+                }while(!in.nextLine().toLowerCase().equals("q"));
+            }else{
+                System.out.println("Please try again or type Q to finish");
+            }
+        }while(!in.nextLine().toLowerCase().equals("q"));
+
+
+
+    }
+}
