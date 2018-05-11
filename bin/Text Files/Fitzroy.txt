@@ -1,0 +1,6 @@
+MovieName             Location            Time
+Black_Panther 	      Fitzroy		  10:00
+Operation_Red_Sea     Fitzroy		  01:00
+Detective_China_Town  Fitzroy		  16:00
+Ready_Player_One      Fitzroy             19:00
+Fifty_Shades_Free     Fitzroy		  22:00 
