@@ -34,4 +34,10 @@ class ShowingTestSprint2 {
 		assertEquals("StKilda", output);
 	}
 
+	@Test
+	void getSeats() {
+		Showing test = new Showing("StKilda", "The Avengers", "Monday", "19:00", Seatmap);
+		Seatmap output = test.getSeats();
+		assertEquals(Seatmap, output);
+	}
 }
