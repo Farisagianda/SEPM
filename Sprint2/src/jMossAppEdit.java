@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class jMossApp {
+public class jMossAppEdit {
 
     public static void main(String [] args) throws FileNotFoundException {
 
@@ -133,7 +133,7 @@ public class jMossApp {
         switch(choice)
         {
           case 1:
-            seacrh();
+            search();
             break;
             
           case 2:
